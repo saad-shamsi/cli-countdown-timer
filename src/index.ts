@@ -1,12 +1,8 @@
 #!/usr/bin/env node
+import main from "./countdown.js";
 
-import { input } from "@inquirer/prompts";
-import { beautifyName } from "./utils/beautifyName.js";
-import { inputQuestions } from "./questions/input.js";
+import welcome from "./utils/welcome.js";
 
-const name = await input(inputQuestions[0]);
+await welcome();
 
-console.log(`Hello, ${beautifyName(name)}!`);
-
-process.exit();
-
+await main();
