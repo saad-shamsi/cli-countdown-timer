@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "saadshamsi/cli-countdown-timer"
+      "repo": "saad-shamsi/cli-countdown-timer"
     }
   ],
   "commit": false,
